@@ -17,11 +17,12 @@ export default defineConfig({
         background_color: '#111114',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/',
+        start_url: '/Tracker-App/',
+        scope: '/Tracker-App/',
         icons: [
-          { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
-          { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png' },
-          { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+         { src: '/Tracker-App/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+         { src: '/Tracker-App/icons/icon-512.png', sizes: '512x512', type: 'image/png' },
+         { src: '/Tracker-App/icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
       workbox: {
